@@ -1,50 +1,88 @@
 <!DOCTYPE html>
 <html>
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-81D6829LG0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-81D6829LG0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-81D6829LG0');
+  </script>
 
-  gtag('config', 'G-81D6829LG0');
-</script>
+  <!-- Canonical -->
+  <link rel="canonical" href="https://andrewjohngilbert.github.io/monathesis/" />
+
+  <!-- Structured data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Thesis",
+    "headline": "Motion, Language, and Multimodal Integration for Video Understanding",
+    "name": "Motion, Language, and Multimodal Integration for Video Understanding",
+    "author": {
+      "@type": "Person",
+      "name": "Mona Ahmadian",
+      "sameAs": [
+        "https://www.linkedin.com/in/mona-ahmadian-57853521a/"
+      ]
+    },
+    "datePublished": "2026-01-01",
+    "inSupportOf": "Doctor of Philosophy (PhD) in Digital Media Art",
+    "publisher": {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Surrey"
+    },
+    "url": "https://andrewjohngilbert.github.io/monathesis/",
+    "image": "assets/thesis-teaser.jpg",
+    "description": "PhD thesis in Digital Media Art by Mona Ahmadian at the University of Surrey (January 2026). The thesis investigates motion-focused self-supervision, language-grounded semantics, and multimodal audio–visual integration for complex action recognition and dense event localisation in untrimmed real-world videos, introducing MOFO, FILS, and DEL.",
+    "keywords": [
+      "video understanding",
+      "digital media art",
+      "self-supervised learning",
+      "multimodal learning",
+      "action recognition",
+      "dense event localisation",
+      "optical flow",
+      "language grounding",
+      "audio-visual integration",
+      "MOFO",
+      "FILS",
+      "DEL"
+    ],
+    "sameAs": [
+      "https://andrewjohngilbert.github.io/monathesis/assets/MonaAhmadian_Thesis.pdf"
+    ]
+  }
+  </script>
 
   <meta charset="utf-8">
-  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
-  <!-- Replace the content tag with appropriate information -->
-  <meta name="description" content="This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset.">
-  <meta property="og:title" content="DEAR: Depth-Estimated Action Recognition"/>
-  <meta property="og:description" content="This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset."/>
-  <meta property="og:url" content="https://andrewjohngilbert.github.io/dear/"/>
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
-  <meta property="og:image" content="assets/dear_Teaser.png" />
+  <meta name="description" content="PhD thesis in Digital Media Art by Mona Ahmadian (University of Surrey, January 2026) on motion-focused self-supervision, language-grounded semantics, and multimodal audio–visual integration for video understanding. Introducing MOFO, FILS, and DEL for action recognition and dense event localisation.">
+  <meta property="og:title" content="Motion, Language, and Multimodal Integration for Video Understanding"/>
+  <meta property="og:description" content="PhD in Digital Media Art, University of Surrey (Jan 2026). A unified investigation of motion reasoning, language-grounded semantics, and multimodal integration for accurate, interpretable video understanding in real-world, untrimmed videos."/>
+  <meta property="og:url" content="https://andrewjohngilbert.github.io/monathesis/"/>
+  <meta property="og:image" content="assets/thesis-teaser.jpg" />
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
 
-
-  <meta name="twitter:title" content="DEAR: Depth-Estimated Action Recognition">
-  <meta name="twitter:description" content="This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset">
-  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
-  <meta name="twitter:image" content="asserts/dear_Teaser.png">
+  <meta name="twitter:title" content="Motion, Language, and Multimodal Integration for Video Understanding">
+  <meta name="twitter:description" content="PhD thesis in Digital Media Art (University of Surrey, Jan 2026) by Mona Ahmadian introducing MOFO, FILS, and DEL for motion-aware, language-grounded, and multimodal video understanding.">
+  <meta name="twitter:image" content="assets/thesis-teaser.jpg">
   <meta name="twitter:card" content="summary_large_image">
-  <!-- Keywords for your paper to be indexed by-->
-  <meta name="keywords" content="Machine Learning, Depth, Video Understanding,andrew Gilbert, Sadegh Rahmani,">
+
+  <meta name="keywords" content="video understanding, digital media art, self-supervised learning, multimodal, motion, language, action recognition, dense event localisation, MOFO, FILS, DEL, Mona Ahmadian">
+  <meta name="author" content="Mona Ahmadian">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-  <title>DEAR: Depth-Estimated Action Recognition</title>
+  <title>Motion, Language, and Multimodal Integration for Video Understanding – PhD Thesis of Mona Ahmadian</title>
   <link rel="icon" type="image/x-icon" href="static/images/favicon-32x32.png">
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="static/css/bulma.min.css">
   <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
   <link rel="stylesheet" href="static/css/bulma-slider.min.css">
   <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
-  <link rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="static/css/index.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -54,165 +92,255 @@
   <script src="static/js/bulma-slider.min.js"></script>
   <script src="static/js/index.js"></script>
 </head>
+
 <body>
 
+<!-- ======================= HERO / HEADER ======================= -->
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
 
-  <section class="hero">
-    <div class="hero-body">
-      <div class="container is-max-desktop">
-        <div class="columns is-centered">
-          <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">DEAR: Depth-Estimated Action Recognition</h1>
-            <div class="is-size-5 publication-authors">
-              <!-- Paper authors -->
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/sadegh-rahmani" target="_blank">Sadegh Rahmani</a>[1]<sup></sup>,</span>
-                <span class="author-block">
-                  <a href="F" target="_blank">Filip Rybansky</a>[2]<sup></sup>,</span>
-                  <span class="author-block">
-                    <a href="https://www.ncl.ac.uk/medical-sciences/people/profile/quocvuong.html" target="_blank">Quoc Vuong</a>[2]<sup></sup>,</span>
-                <span class="author-block">
-                  <a href="https://www.surrey.ac.uk/people/frank-guerin" target="_blank">Frank Guerin</a>[1]<sup></sup>,</span>
-                  <span class="author-block">
-                    <a href="https://andrewjohngilbert.github.io/" target="_blank">Andrew Gilbert</a>[1]<sup></sup>,</span>
-                  </div>
+          <h1 class="title is-1 publication-title">
+            Motion, Language, and Multimodal Integration for Video Understanding
+          </h1>
 
-                  <div class="is-size-5 publication-authors">
-                    <span class="author-block">[1] Unviersity of Surrey [2] Unviersityof Newcastle<br> <a href="https://eccv2024.ecva.net/" target="_blank">The European Conference of Computer Vision 2024</a> <a href="https://sites.google.com/view/hcvworkshop2024" target="_blank">Human-inspired Computer Vision Workshop</a>              
-                  </div>
-
-                  <div class="column has-text-centered">
-                    <div class="publication-links">
-                         <!-- Arxiv PDF link -->
-                      <span class="link-block">
-                        <a href="https://andrewjohngilbert.github.io/dear/assets/dear_paper.pdf" target="_blank"
-                        class="external-link button is-normal is-rounded is-dark">
-                        <span class="icon">
-                          <i class="fas fa-file-pdf"></i>
-                        </span>
-                        <span>Paper</span>
-                      </a>
-                    </span>
-
-                    <!-- Supplementary PDF link -->
-                   <span class="link-block">
-                      <a href="assets/DEAR HCV Poster.pdf" target="_blank"
-                      class="external-link button is-normal is-rounded is-dark">
-                      <span class="icon">
-                        <i class="fas fa-file-pdf"></i>
-                      </span>
-                      <span>Poster</span>
-                    </a>
-                  </span>
- 
-                  <!-- Github link -->
-                <span class="link-block">
-                    <a href="https://github.com/SadeghRahmaniB/DEAR" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark">
-                    <span class="icon">
-                      <i class="fab fa-github"></i>
-                    </span>
-                    <span>Code</span>
-                  </a>
-                </span>
-              
-
-                
-            </div>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://www.linkedin.com/in/mona-ahmadian-57853521a/" target="_blank">Mona Ahmadian</a>
+            </span>
           </div>
+
+          <div class="is-size-6 publication-authors">
+            <span class="author-block">
+              PhD in Digital Media Art, University of Surrey, UK<br>
+              January 2026
+            </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+
+              <!-- Thesis PDF -->
+              <span class="link-block">
+                <a href="assets/MonaAhmadian_Thesis.pdf" target="_blank"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                  <span>Thesis PDF</span>
+                </a>
+              </span>
+
+              <!-- LinkedIn -->
+              <span class="link-block">
+                <a href="https://www.linkedin.com/in/mona-ahmadian-57853521a/" target="_blank"
+                   class="external-link button is-normal is-rounded is-light">
+                  <span class="icon"><i class="fab fa-linkedin"></i></span>
+                  <span>LinkedIn</span>
+                </a>
+              </span>
+
+            </div>
+
+            <!-- Share buttons -->
+            <div class="columns is-centered" style="margin-top:0.75rem;">
+              <div class="column is-narrow">
+                <div class="buttons are-small is-centered">
+                  <a href="https://twitter.com/intent/tweet?url=https://andrewjohngilbert.github.io/monathesis/&text=Motion, Language, and Multimodal Integration for Video Understanding – PhD Thesis of Mona Ahmadian"
+                     target="_blank" class="button is-info is-light">
+                    <span class="icon"><i class="fab fa-twitter"></i></span><span>Tweet</span>
+                  </a>
+                  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://andrewjohngilbert.github.io/monathesis/"
+                     target="_blank" class="button is-link is-light">
+                    <span class="icon"><i class="fab fa-linkedin"></i></span><span>Share</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- TL;DR -->
+            <div class="content" style="margin-top:1rem;">
+              <div class="box" style="text-align:left;">
+                <p style="margin-bottom:0.5rem;">
+                  <strong>TL;DR:</strong>
+                  This PhD in Digital Media Art develops a unified framework for understanding complex actions and events in untrimmed, real-world videos by:
+                </p>
+                <ul style="margin-top:0;">
+                  <li><strong>MOFO</strong>: motion-focused self-supervision that explicitly models motion dynamics and motion-sensitive regions in videos.</li>
+                  <li><strong>FILS</strong>: language-grounded self-supervision that predicts video features in a semantic language space.</li>
+                  <li><strong>DEL</strong>: supervised multimodal dense event localisation for overlapping and asynchronous audio–visual events.</li>
+                  <li>Together, these contributions advance interpretable, motion-aware, and semantically grounded video understanding in the context of digital media.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div><!-- column -->
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
-<!-- Teaser video-->
-<section class="hero teaser">
+<!-- ======================= DOWNLOADS SECTION (NEW) ======================= -->
+<section class="section" id="downloads">
   <div class="container is-max-desktop">
-    <div class="hero-body">
-      <img src="assets/dear_teaser.jpg">
-      <h2 class="subtitle has-text-centered">
-        We perform supervised action recognition using a fusion of RGB and depth map frames. We used S4V network for processing RGB and the same network plus VideoMamba to extract depth features. Gated cross-attention (GCA) has been used for fusing modalities, while mean operation has been selected for fusing models' scores.
-      </h2>
-    </div>
-  </div>
-</section>
-<!-- End teaser video -->
+    <div class="columns is-centered">
+      <div class="column is-10">
+        <h2 class="title is-4">Downloads</h2>
+        <div class="box">
+          <div class="columns is-multiline">
+            <div class="column is-12">
+              <strong>Thesis</strong>
+            </div>
+            <div class="column is-12">
+              <a href="assets/MonaAhmadian_Thesis.pdf" target="_blank"
+                 class="button is-small is-dark is-rounded">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>PhD Thesis PDF</span>
+              </a>
+            </div>
 
-<!-- Paper abstract -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Detecting actions in videos, particularly within cluttered scenes, poses significant challenges due to the limitations of 2D frame analysis from a camera perspective. Unlike human vision, which benefits from 3D understanding, recognizing actions in such environments can be difficult. This research introduces a novel approach integrating 3D features and depth maps alongside RGB features to enhance action recognition accuracy. Our method involves processing estimated depth maps through a separate branch from the RGB feature encoder and fusing the features to understand the scene and actions comprehensively. Using the Side4Video framework and VideoMamba, which employ CLIP and VisionMamba for spatial feature extraction, our approach outperformed our implementation of the Side4Video network on the Something-Something V2 dataset.
+            <div class="column is-12" style="margin-top:0.75rem;">
+              <strong>Associated Papers</strong>
+            </div>
+
+            <div class="column is-12">
+              <a href="https://andrewjohngilbert.github.io/mofo/assets/MOFO_MOtion_FOcused_Self-Supervision_for_Video_Paper.pdf"
+                 target="_blank"
+                 class="button is-small is-link is-light is-rounded">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>MOFO Paper (NeurIPS SSL Workshop 2023)</span>
+              </a>
+            </div>
+
+            <div class="column is-12">
+              <a href="https://andrewjohngilbert.github.io/FILS/assets/FILSPaper.pdf"
+                 target="_blank"
+                 class="button is-small is-link is-light is-rounded">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>FILS Paper (BMVC 2024)</span>
+              </a>
+            </div>
+
+            <div class="column is-12">
+              <a href="https://andrewjohngilbert.github.io/DEL_ICCV/assets/MMKM_Del_Paper.pdf"
+                 target="_blank"
+                 class="button is-small is-link is-light is-rounded">
+                <span class="icon"><i class="fas fa-file-pdf"></i></span>
+                <span>DEL Paper (ICCV MMFM4 Workshop / under review at Multimedia 2026)</span>
+              </a>
+            </div>
+          </div>
+          <p class="is-size-7 has-text-grey" style="margin-top:0.75rem;">
+            For project pages with additional figures, videos, and implementation details, see:
+            <a href="https://andrewjohngilbert.github.io/mofo/" target="_blank">MOFO</a>,
+            <a href="https://andrewjohngilbert.github.io/FILS/" target="_blank">FILS</a>,
+            <a href="https://andrewjohngilbert.github.io/DEL_ICCV/" target="_blank">DEL</a>.
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End paper abstract -->
 
+<section class="section hero is-light" id="publications">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Publications Linked to This Thesis</h2>
+        <div class="content">
+          <p>
+            The core chapters of this thesis correspond to the following peer-reviewed publications:
+          </p>
 
+          <ol>
+            <li>
+              <strong>Chapter 3 – MOFO</strong><br>
+              M. Ahmadian, F. Guerin, and A. Gilbert.<br>
+              “MOFO: MOtion FOcused Self-Supervision for Video Understanding,”<br>
+              In <em>Proceedings of the Self-Supervised Learning Workshop – Theory and Practice (NeurIPS)</em>, 2023.<br>
+              <a href="https://andrewjohngilbert.github.io/mofo/" target="_blank">Project page</a> |
+              <a href="https://andrewjohngilbert.github.io/mofo/assets/MOFO_MOtion_FOcused_Self-Supervision_for_Video_Paper.pdf" target="_blank">Paper (PDF)</a>
+            </li>
+            <li>
+              <strong>Chapter 4 – FILS</strong><br>
+              M. Ahmadian, F. Guerin, and A. Gilbert.<br>
+              “FILS: Self-Supervised Video Feature Prediction in Semantic Language Space,”<br>
+              In <em>Proceedings of the 35th British Machine Vision Conference (BMVC)</em>, 2024.<br>
+              <a href="https://andrewjohngilbert.github.io/FILS/" target="_blank">Project page</a> |
+              <a href="https://andrewjohngilbert.github.io/FILS/assets/FILSPaper.pdf" target="_blank">Paper (PDF)</a>
+            </li>
+            <li>
+              <strong>Chapter 5 – DEL</strong><br>
+              M. Ahmadian, A. Shirian, F. Guerin, and A. Gilbert.<br>
+              “DEL: Dense Event Localisation for Multi-modal Audio-Visual Understanding,”<br>
+              In <em>Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV) Workshop on What is Next in Multimodal Foundation Models (MMFM4)</em>, and under review at <em>Multimedia</em>, 2026.<br>
+              <a href="https://andrewjohngilbert.github.io/DEL_ICCV/" target="_blank">Project page</a> |
+              <a href="https://andrewjohngilbert.github.io/DEL_ICCV/assets/MMKM_Del_Paper.pdf" target="_blank">Paper (PDF)</a>
+            </li>
+          </ol>
 
-<!-- Paper poster -->
-
-  <section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="assets/DEAR HCV Poster.pdf" width="100%" height="1000">
-          </iframe>
-        
+          <p>
+            These works are integrated and extended within the thesis, which situates them in a broader framework for motion,
+            language, and multimodal integration in video understanding.
+          </p>
+        </div>
       </div>
     </div>
-  </section>
-<!--End paper poster -->
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@inproceedings{Rahmani:Dear:ECCVWS:2024,
-        AUTHOR = Rahmani, Sadegh and Rybansky, Filip and Vuong, Quoc and Guerin, Frank and Gilbert, Andrew ",
-        TITLE = "DEAR: Depth-Estimated Action Recognition",
-        BOOKTITLE = " The European Conference of Computer Vision 2024, Human-inspired Computer Vision Workshop",
-        YEAR = "2024",
-        }</code></pre>
-    </div>
+  </div>
 </section>
-<!--End BibTex citation -->
 
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <button class="button is-small is-info" onclick="copyBibtex()">Copy BibTeX</button>
+    <pre id="bibtex-entry"><code>@phdthesis{Ahmadian2026Thesis,
+  author    = {Mona Ahmadian},
+  title     = {Motion, Language, and Multimodal Integration for Video Understanding},
+  school    = {University of Surrey},
+  year      = {2026},
+  month     = {January},
+  address   = {Guildford, United Kingdom},
+  note      = {PhD in Digital Media Art. Chapters based on MOFO (NeurIPS SSL Workshop 2023), FILS (BMVC 2024), and DEL (ICCV MMFM4 Workshop / under review at Multimedia 2026)}
+}</code></pre>
+    <script>
+      function copyBibtex() {
+        var bib = document.getElementById('bibtex-entry').innerText;
+        navigator.clipboard.writeText(bib);
+      }
+    </script>
+  </div>
+</section>
 
-  <footer class="footer">
+<footer class="footer">
   <div class="container">
     <div class="columns is-centered">
       <div class="column is-8">
         <div class="content">
-
           <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
+            <strong>Motion, Language, and Multimodal Integration for Video Understanding</strong><br>
+            PhD thesis in Digital Media Art by
+            <a href="https://www.linkedin.com/in/mona-ahmadian-57853521a/" target="_blank">Mona Ahmadian</a>, University of Surrey, January 2026.<br>
+            <br>
+            This page was built using the
+            <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a>
+            adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            <br>
+            Licensed under <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">
+              CC BY-SA 4.0</a>.
           </p>
-
         </div>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+<script>
+  function copyBibtex() {
+    var bib = document.getElementById('bibtex-entry').innerText;
+    navigator.clipboard.writeText(bib);
+  }
+</script>
 
-    <!-- End of Statcounter Code -->
-
-  </body>
-  </html>
+</body>
+</html>
